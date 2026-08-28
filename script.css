@@ -1,77 +1,44 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+/* Estilo das imagens */
+.logo-header {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
-header {
-    background-color: #C00000;
-    color: #ffffff;
-    text-align: center;
-    padding: 2rem;
-    border-bottom: 8px solid #000000;
-}
-
-nav {
-    background-color: #000000;
-    text-align: center;
-    padding: 0.8rem;
-    position: sticky;
-    top: 0;
-}
-
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #C00000;
-}
-
-.container {
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-}
-
-h2 {
-    color: #C00000;
-    border-bottom: 2px solid #000000;
-    padding-bottom: 5px;
-}
-
-table {
+.img-banner {
     width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
 
-th, td {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: left;
+.img-secao {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-th {
-    background-color: #000000;
-    color: white;
+.card-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-tr:nth-child(even) {
-    background-color: #f2f2f2;
+.galeria-idolos {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
 }
 
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #000000;
-    color: #ffffff;
-    margin-top: 40px;
+.img-idolo {
+    width: 48%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #C00000;
 }
